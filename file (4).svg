@@ -5,454 +5,142 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   viewBox="0 0 918.98669 411.6756"
-   stroke-miterlimit="10"
-   id="svg2"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="ml-system.svg"
-   width="918.98669"
-   height="411.6756"
-   style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10">
-  <desc>ML system diagram containing the following components: data collection, feature extraction, process management tools, data verification, configuration, machine resource management, monitoring, and serving infrastructure, and ML code. The ML code part of the diagram is dwarfed by the other nine components.</desc>
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="0 0 504 390"
+   height="390"
+   width="504"
+   id="svg3822"
+   version="1.1">
+  <desc>Histogram of a model's weights with a mean of zero that is somewhere between a flat distribution and a normal distribution.</desc>
   <metadata
-     id="metadata121">
+     id="metadata3828">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs119" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1597"
-     inkscape:window-height="891"
-     id="namedview117"
-     showgrid="false"
-     inkscape:zoom="1.1416667"
-     inkscape:cx="334.91501"
-     inkscape:cy="277.41144"
-     inkscape:window-x="127"
-     inkscape:window-y="134"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
-  <clipPath
-     id="g13063ce0d7_0_741.0">
-    <path
-       d="M 0,0 960,0 960,540 0,540 0,0 Z"
-       id="path5"
-       inkscape:connector-curvature="0"
-       style="clip-rule:nonzero" />
-  </clipPath>
-  <g
-     clip-path="url(#g13063ce0d7_0_741.0)"
-     id="g7"
-     transform="translate(-27.128824,-121.22272)"
-     inkscape:export-xdpi="90"
-     inkscape:export-ydpi="90">
-    <defs
-       id="defs11" />
-    <path
-       d="m 363.8294,301.23752 42.58267,0 0,30.29922 -42.58267,0 z"
-       id="path109"
-       inkscape:connector-curvature="0"
-       style="fill:#cfe2f3;fill-rule:evenodd" />
-    <g
-       id="NonMLCode">
-      <desc
-         id="desc4310">Non-Machine Learning System Blocks</desc>
-      <g
-         id="DataCollection"
-         style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10">
-        <desc
-           id="desc4285">Data Collection Block</desc>
-        <path
-           style="fill:#f3f3f3;fill-rule:evenodd"
-           inkscape:connector-curvature="0"
-           id="path41"
-           d="m 182.46326,142.34908 157.00787,0 0,120.7559 -157.00787,0 z" />
-        <path
-           style="fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round"
-           inkscape:connector-curvature="0"
-           id="path43"
-           d="m 182.46326,142.34908 157.00787,0 0,120.7559 -157.00787,0 z" />
-        <text
-           sodipodi:linespacing="125%"
-           id="text4346"
-           y="209.25107"
-           x="201.64835"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-             id="tspan4348"
-             y="209.25107"
-             x="201.64835"
-             sodipodi:role="line"><tspan
-               id="tspan4350"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-               y="209.25107"
-               x="201.64835">Data Collection</tspan></tspan></text>
-      </g>
-      <g
-         id="DataVerification">
-        <desc
-           id="desc4296">Data Verification Block</desc>
-        <path
-           style="fill:#999999;fill-rule:evenodd"
-           inkscape:connector-curvature="0"
-           d="m 352.38715,159.74803 127.96851,0 0,120.75591 -127.96851,0 z"
-           id="path47" />
-        <path
-           style="fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round"
-           inkscape:connector-curvature="0"
-           d="m 352.38715,159.74803 127.96851,0 0,120.75591 -127.96851,0 z"
-           id="path49" />
-        <text
-           sodipodi:linespacing="125%"
-           id="text4288"
-           y="215.44336"
-           x="444.36456"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-             id="tspan4290"
-             y="215.44336"
-             x="400.99481"
-             sodipodi:role="line"><tspan
-               dx="0 0 0 0 0"
-               id="tspan4292"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-               y="215.44336"
-               x="400.99481">Data</tspan></tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-             id="tspan4296"
-             y="237.31836"
-             x="372.76239"
-             sodipodi:role="line"><tspan
-               id="tspan4298"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-               y="237.31836"
-               x="372.76239">Verification</tspan></tspan></text>
-      </g>
-      <g
-         id="MachineResourceManagement">
-        <desc
-           id="desc4308">Machine Resource Management Block</desc>
-        <path
-           style="fill:#d9d9d9;fill-rule:evenodd"
-           inkscape:connector-curvature="0"
-           d="m 490.8937,176.77428 140.47244,0 0,103.74803 -140.47244,0 z"
-           id="path87" />
-        <path
-           style="fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round"
-           inkscape:connector-curvature="0"
-           d="m 490.8937,176.77428 140.47244,0 0,103.74803 -140.47244,0 z"
-           id="path89" />
-        <text
-           sodipodi:linespacing="125%"
-           id="text4300"
-           y="211.60117"
-           x="530.2016"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-             id="tspan4302"
-             y="211.60117"
-             x="530.2016"
-             sodipodi:role="line"><tspan
-               dx="0 0 0 0 0 0 0 0"
-               id="tspan4304"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-               y="211.60117"
-               x="530.2016">Machine</tspan></tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-             id="tspan4308"
-             y="233.47617"
-             x="526.68109"
-             sodipodi:role="line"><tspan
-               dx="0 0 0 0 0 0 0 0 0"
-               id="tspan4310"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-               y="233.47617"
-               x="526.68109">Resource</tspan></tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-             id="tspan4314"
-             y="255.35117"
-             x="509.18106"
-             sodipodi:role="line"><tspan
-               id="tspan4316"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-               y="255.35117"
-               x="509.18106">Management</tspan></tspan></text>
-      </g>
-      <g
-         id="ServingInfrastructure">
-        <desc
-           id="desc4326">Serving Infrastructure Block</desc>
-        <path
-           style="fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round"
-           inkscape:connector-curvature="0"
-           d="m 644.6076,149.27821 135.30707,0 0,279.02362 -135.30707,0 z"
-           id="path71" />
-        <text
-           sodipodi:linespacing="125%"
-           id="text4318"
-           y="284.37656"
-           x="685.71204"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-             id="tspan4320"
-             y="284.37656"
-             x="685.71204"
-             sodipodi:role="line"><tspan
-               dx="0 0 0 0 0 0 0 0"
-               id="tspan4322"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-               y="284.37656"
-               x="685.71204">Serving</tspan></tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-             id="tspan4326"
-             y="306.25156"
-             x="659.00061"
-             sodipodi:role="line"><tspan
-               id="tspan4328"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-               y="306.25156"
-               x="659.00061">Infrastructure</tspan></tspan></text>
-      </g>
-      <g
-         id="Monitoring">
-        <desc
-           id="desc4346">Monitoring Block</desc>
-        <path
-           style="fill:#d9d9d9;fill-rule:evenodd"
-           inkscape:connector-curvature="0"
-           d="m 514.15094,351.3491 117.22833,0 0,120.75589 -117.22833,0 z"
-           id="path103" />
-        <path
-           style="fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round"
-           inkscape:connector-curvature="0"
-           d="m 514.15094,351.3491 117.22833,0 0,120.75589 -117.22833,0 z"
-           id="path105" />
-        <text
-           sodipodi:linespacing="125%"
-           id="text4382"
-           y="416.5549"
-           x="572.63263"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
-             id="tspan4384"
-             y="416.5549"
-             x="572.63263"
-             sodipodi:role="line"><tspan
-               id="tspan4386"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle"
-               y="416.5549"
-               x="572.63263">Monitoring</tspan></tspan></text>
-      </g>
-      <g
-         id="Configuration">
-        <desc
-           id="desc4356">Configuration Block</desc>
-        <path
-           style="fill:#ffffff;fill-rule:evenodd"
-           inkscape:connector-curvature="0"
-           d="m 365.61548,352.27036 135.3071,0 0,162.74014 -135.3071,0 z"
-           id="path97" />
-        <path
-           style="fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round"
-           inkscape:connector-curvature="0"
-           d="m 365.61548,352.27036 135.3071,0 0,162.74014 -135.3071,0 z"
-           id="path99" />
-        <text
-           sodipodi:linespacing="125%"
-           id="text4376"
-           y="438.46829"
-           x="380.88013"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
-             id="tspan4378"
-             y="438.46829"
-             x="380.88013"
-             sodipodi:role="line"><tspan
-               id="tspan4380"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-               y="438.46829"
-               x="380.88013">Configuration</tspan></tspan></text>
-      </g>
-      <g
-         id="AnalysisTools">
-        <desc
-           id="desc4336">Analysis Tools Block</desc>
-        <path
-           style="fill:#efefef;fill-rule:evenodd"
-           inkscape:connector-curvature="0"
-           d="m 428.39502,295.1982 201.85828,0 0,42.39371 -201.85828,0 z"
-           id="path63" />
-        <path
-           style="fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round"
-           inkscape:connector-curvature="0"
-           d="m 428.39502,295.1982 201.85828,0 0,42.39371 -201.85828,0 z"
-           id="path65" />
-        <text
-           sodipodi:linespacing="125%"
-           id="text4330"
-           y="321.22293"
-           x="529.68732"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             style="-inkscape-font-specification:Roboto;font-family:Roboto;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-             id="tspan4332"
-             y="321.22293"
-             x="529.68732"
-             sodipodi:role="line"><tspan
-               id="tspan4334"
-               style="font-size:17.5px;text-align:center;text-anchor:middle;-inkscape-font-specification:Roboto;font-family:Roboto;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-               y="321.22293"
-               x="529.68732">Analysis Tools</tspan></tspan></text>
-      </g>
-      <g
-         id="ProcessManagementTools">
-        <desc
-           id="desc4366">Process Management Tools</desc>
-        <path
-           style="fill:#cccccc;fill-rule:evenodd"
-           inkscape:connector-curvature="0"
-           d="m 223.52625,391.7979 132.09448,0 0,92.66141 -132.09448,0 z"
-           id="path77" />
-        <path
-           style="fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round"
-           inkscape:connector-curvature="0"
-           d="m 223.52625,391.7979 132.09448,0 0,92.66141 -132.09448,0 z"
-           id="path79" />
-        <text
-           sodipodi:linespacing="125%"
-           id="text4362"
-           y="422.50848"
-           x="261.50916"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             id="tspan4364"
-             y="422.50848"
-             x="261.50916"
-             sodipodi:role="line"><tspan
-               id="tspan4366"
-               style="font-size:17.5px;text-align:start;text-anchor:start"
-               y="422.50848"
-               x="261.50916">Process </tspan></tspan><tspan
-             id="tspan4368"
-             y="444.38348"
-             x="237.07068"
-             sodipodi:role="line"><tspan
-               id="tspan4370"
-               style="font-size:17.5px;text-align:start;text-anchor:start"
-               y="444.38348"
-               x="237.07068">Management </tspan></tspan><tspan
-             id="tspan4372"
-             y="466.25848"
-             x="273.13025"
-             sodipodi:role="line"><tspan
-               id="tspan4374"
-               style="font-size:17.5px;text-align:start;text-anchor:start"
-               y="466.25848"
-               x="273.13025">Tools</tspan></tspan></text>
-      </g>
-      <g
-         id="FeatureExtraction">
-        <desc
-           id="desc4376">Feature Extraction Block</desc>
-        <path
-           style="fill:#d9d9d9;fill-rule:evenodd"
-           inkscape:connector-curvature="0"
-           d="m 180.0853,275.57742 161.7638,0 0,103.74805 -161.7638,0 z"
-           id="path55" />
-        <path
-           style="fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round"
-           inkscape:connector-curvature="0"
-           d="m 180.0853,275.57742 161.7638,0 0,103.74805 -161.7638,0 z"
-           id="path57" />
-        <text
-           sodipodi:linespacing="125%"
-           id="text4352"
-           y="322.76883"
-           x="232.71341"
-           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
-             id="tspan4354"
-             y="322.76883"
-             x="232.71341"
-             sodipodi:role="line"><tspan
-               id="tspan4356"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-               y="322.76883"
-               x="232.71341">Feature </tspan></tspan><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto"
-             id="tspan4358"
-             y="344.64383"
-             x="221.10941"
-             sodipodi:role="line"><tspan
-               id="tspan4360"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start"
-               y="344.64383"
-               x="221.10941">Extraction </tspan></tspan></text>
-      </g>
-    </g>
-    <g
-       id="MLCode"
-       inkscape:label="MLCode">
-      <desc
-         id="desc4385">ML Code Block</desc>
-      <path
-         id="path111"
-         d="m 363.8294,301.23752 42.58267,0 0,30.29922 -42.58267,0 z"
-         inkscape:connector-curvature="0"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="379.13928"
-         y="313.71136"
-         id="text4336"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="379.13928"
-           y="313.71136"
-           id="tspan4338"><tspan
-             x="379.13928"
-             y="313.71136"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1"
-             id="tspan4340">ML </tspan></tspan><tspan
-           sodipodi:role="line"
-           x="373.43616"
-           y="326.21136"
-           id="tspan4342"><tspan
-             x="373.43616"
-             y="326.21136"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1"
-             id="tspan4344">Code</tspan></tspan></text>
-    </g>
-  </g>
+     id="defs3826" />
+  <image
+     y="22"
+     x="0"
+     id="image3830"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfgAAAFwCAYAAABUy2nKAAAQrElEQVR42u3dMW8URxjGcT6KhSh2 GzdLg11QUuGGiq/FN4gUCnfXnhQ4riDlCSmyokix0p6oLAqERDHRbIEofLtjdm5vZ/f3SE/Fm/jm z3vzD5e1eRRERERkdnkEgYiICMGLiIgIwYuIiAjBi4iICMGLiIgIwYuIiBC8iIiIELyIiIgQvIiI iBC8iIiIELyIiAjBi4iICMGLiIgIwYuIiAjBi4iICMGLiIgIwYuIiBC8iIiIELyIiIgQvIiIiBC8 iIiIzFLwnz9/UdWM/fTp73B+/md4+vS/e1tVq1DX24O/Hhv/+fjvwVM1fwleVX9Z8FHSl5ff722U 9/n5Pwd/PTb+8wSvSvAEr0rwqkrwBK9K8KoET/CqSvCqBE/wqqnd7+9aifU1zpX0esYS/Fz5qRI8 wevMnzYf+2nyXK9nLMHPlZ8qwRO8zvyj7LE/qs71esYU/Bz5qRI8wSvBEzzBqxI8wSvBEzzBqxK8 KsETPMErwRO86nGE0DS3Yb3edD6VvdvdtD320++pryf+etMME3yOr5PzafwUxrlejyrBE7wuQPBR hn0/tz3Xz3bP+Xq6BJ4i+BxfJ+fT+CmMc70eVYIneF2I4FNkONZH3jleT64zlXZugleCJ3gleIIn eFWCJ3gleIIneFWCJ3gleIIneCV4gledh+BzPZVemuCndG6CV4IneCX4o8gwx1PgpQl+SucmeCV4 gleCP5kM5yj4Kc0QvBI8wSvBEzzBqxI8wSvBEzzBqxI8wSvBEzzBK8ETvCrBEzzBK8ETvCrBEzzB K8ETvBI8wRO8KsETvBI8wRO8KsETvBI8wRO8KsGrEjzBE7wSPMGrEjzBE7wSPMGrEjzBE7wSPMEr wRM8wasSPMErwRM8wasSPMErwRM8wSvBE7wqwRM8wSvBE7wqwRM8wSvBE7wSPMETvCrBE7wSPMET vCrBE7wSPMETvCrBqxI8wRO8EjzBqxI8wRO8EjzBqxI8wRO8EjzBK8ETPMGrEjzBK8ETPMGrEjzB K8ETPMErwRO8KsETPMErwRO8KsETPMErwRO8EjzBE7wqwRO8EjzBE7wqwRO8EjzBE7wqwasSPMET vBI8wasSPMETvBI8wasSPMETvBI8wSvBEzzBqxI8wWu27vd37SXc1Tgz9N+xXm9C0xD8kmaa5rb9 fR+yXym7lbKjSvAEr4v8k3W8rOOftu5r/LW+P4X1/Ttiq2q1SNEtWfBxpq63nXvRt18pu5Wyo0rw BK8+Ov+Fj1mX+vE7wR//Y/yU3fK/ApTgCV4JnuAJXgme4JXgCZ7gCV4JnuCV4EnMuQleCZ7g5/m0 ea4nzne7m7ZDZ1JeT98FmvIk9FKfkCf44z9pn7JbKYKf2vvOdwcQPMEX9LR57ifO+54+TplJfT1d gk95EnqpT8gT/PGftE/ZrdRPmab2vvPdAQRP8AX9oJapfZyd4/UQFMFPnd8c33f+1wPBEzzBEzzB EzzBK8ETPMETPMETPMETPMErwZMPwRM8wRM8wRP89J44z/F6yIfgp85vju87gid4gp/g34Y2tSfO h74e8iH4EvjN7X1H8ARP8P66U4LCDz9/3a4SPMETvAsWP/wInuAJXgmefPDDj+AJnuAJ3gVrxrnx I3iCJ3iCd8HiZwY/gid4gid4Fyx++BG8EjzBE7wLFj/8CF4JXgneBYsffgRP8ARP8C5YM/jhR/AE T/AE74IlKGzwI3iCJ3iCd8HiZwYbgid4gid4Fyx++BG8ErzfbIJ3weKHH8ETPMErwZMPfvgRPMET PMG7YM04N34ET/AET/AuWPzM4EfwBE/wBO+CxQ8/gleCJ3iCd8Hihx/BK8Erwbtg8cOP4Ame4Ane BWsGP/wInuAJnuBdsASFDX4ET/AET/AuWPzMYEPwBE/wBO+CxQ8/gleC95t9f/f7u/aN1NX1ehOa huDN4IffODNNc9veO313U7y/3OME7ze740/n8Q0X/4v5UKtq5YI1gx9+o87U9bbzXooz/pRP8ATv 43cXLH74+Rif4Ame4F0iLk/88CN4gid4gnfBmnFu/Aie4Ame4F2w+JnBj+AJnuAJ3gWLH35mCJ7g CZ7gXbD44UfwSvBK8C5Y/PAjeIIneIJ3wZrBDz+CJ3iCJ3gXLH7Y4EfwBE/wBO+Cxc+McxM8wS9A 8Ck/Iz7Hz2ImeBcsfvgtVfBj3bOncsNiBP/69e/h6mp7sC9fbsJq9bGonxGf42cxE7wLFj/8lir4 se7ZU7lhMYK/uvrQuSwXF9/C27fvi/roPNeCE7xz44ffUgU/xj17KjcQPMETvHPjhx/BEzzBE7wL 1gx++BE8wRM8wbtg8cMGP4In+FMK/tmzr+HNm+vOpxJ3u5u2Q2dSnspM+U1smtuwXm+O/nVcsNjg h19pgk952jzen00zXPApXyuXPx7ymgn+hyz/DWdnf3Q+mVhVq1DX28EzKU9lpoq362vl/DouWDP4 4VeS4FOeNo/3dY5PClK/Vg5/POQ1E/xPgn/y5K/JfLSUQ7xjfR0XrBnnxm+Kgs9xt5V4jxI8wRO8 CxY//Aie4Ame4F2wZvDDj+AJnuAJ3gWLHzb4ETzBEzzBu2DxM+PcBE/wxQs+5dvbUr4Vou9rjfV1 XLBmnBu/sWf67rdcd1uJ9yjBn1Dwfd/elvqtECkXxBhfxwVrxrnxO8VM1/2W824r7R4l+BML3gWB H35m8MOP4AneguOHH35m8CN4grfg+OGHH34ET/AEb8a58cMPP4IneAvugjCDH374ETzBW3D88DOD H34ET/AWHD/8zGCDH8ETvAXHDz/8zDg3wRO8Gfzwww8/gid4C+6CwAY//PAjeIK34C4IM86NH34E T/AWHD/8zOCHH8ETvAXHDz/8zOBH8ATvzY8ffvjhR/AET/BmnBs//PAjeIK34C4IM/jhhx/BE7wF xw8/M/jhR/AEb8Hxw88MNvgRPMFbcPzww8+McxM8wZvBDz/88CN4grfgLghs8MMPP4IneAvugjDj 3PjhR/AEb8Hxw88MfvgRPMFbcPzww88MfgRP8N78+OGHH34ET/AEb8a58cMPP4IneAvugjCDH374 ETzBW3D88DODH34ET/AWHD/8zGCDH8ETvAXHDz/8zDg3wRO8Gfzwww8/gid4C+6CwAY//PAjeIK3 4C4IM86NH34ET/AWHD/8zDg3fgRP8BYcP/zwM4MfwRO8Nz9++OGHH8ETPMGbcW788MOP4Anegrsg zOCHH34ET/AWHD/8zOCHH8ETvAXHDz8z2OBH8ARvwfHDDz8zzk3wBG8GP/zww4/gCd6CuyCwwQ8/ /Aie4C04fmawwQ8/gid4C44ffmacGz+CJ3gLjh9++JnBj+AJ3psfP/zww4/gCZ7gzTg3fvjhR/AE b8FdEGbwww8/gid4C44ffmbww4/gCd6C44efGWzwI3iCt+D44YefGecmeII3gx9++OFH8ARvwV0Q 2OCHH34ET/AWHD8z2OCHH8ETvAXHDz8zzo0fwRO8BccPP/zM4EfwBO/Njx9++OFH8ARP8GacGz/8 8CN4grfgLggz+OGHH8ETvAXHDz8z+OFH8ARvwfHDDz9s8CN4grfg+OGHnxnnJniCN4MffvjhR/AE b8FdENjghx9+BE/wFhw/M9jghx/BE7wFxw8/M86NH8ETvAXHDz/8zOBH8ATvzY8ffvjhR/AET/Bm nBs//PAjeIK34C4IM/jhhx/BE7wFxw8/M/jhR/AEb8Hxww8/bPAjeIK34Pjhh58Z5yZ4gjeDH374 4UfwBG/BXRDY4IcffgRP8BYcPzPY4IcfwRO8BccPPzPOjR/BE7wFxw8//MzgR/AE782PH3744Ufw BE/wZpwbP/zwI3iCt+AuCDP44YcfwRO8BccPPzP44UfwBG/B8cMPP2zwI3iCt+D44YefGecmeII3 gx9++OFH8ARvwV0Q2OCHH34ET/AWHD8z2OCHH8ETvAXHDz8zzo0fwRO8BccPP/zM4EfwBO/Njx9+ +OFH8ARP8GacGz/88CN4grfgLggz+OGHH8ETvAXHDz8z+OFH8ARvwfHDDz9s8CN4grfg+OGHnxnn JniCN4MffvjhR/AEb8FdEGbwww8/gid4C46fGWzww4/gCd6C44efGefGj+AJ3oLjhx9+ZvAjeIL3 5scPP/zwI3iCJ3gzzo0ffvgRPMFbcBeEGfzww4/gCd6C44efGfzwI3iCt+D44YcfNvgRPMFbcPzw w8+McxM8wZvBDz/88CN4grfgLggz+OGHH8ETvAXHzww2+OFH8ARvwfHDz4xz40fwBG/B8cMPPzP4 ETzBe/Pjhx9++BE8wRO8GefGDz/8CJ7gLbgLwgx++OFH8ARvwfHDzwx++BE8wVtw/PDDDxv8CJ7g LTh++OFnBhuCJ3gz+OGHH34ET/AW3AVhBj/88CN4grfg+JnBBj/8CJ7gLTh++JlxbvwInuAtOH74 4WcGP4IneG9+/PDDDz+CJ3iCN+Pc+OGHH8ETvAV3QZhxbvzwI3iCt+D44WcGP/wInuAtOH744YcN fgRP8BYcP/zwM4MNwRO8Gfzwww8/gid4C+6CMIMffvgRPMFbcPzMYIMffgRP8BYcP/zMODd+BE/w Fhw//PAzgx/BE7w3P3744YcfwRO8BTeDDX744UfwBG/BXRBmnBs//Aie4C04fviZwQ8/gid4C44f fvhhgx/BE7wFxw8//MxgQ/AEbwY//PDDj+AJ3oK7IMzghx9+BE/wFhw/M9jghx/BE7wFxw8/M86N H8ETvAXHDz/8zOBH8ATvzY8ffvjhR/AEb8HNYIMffvgRPMFbcBeEGefGDz+CJ3gLjh9+ZvDDj+AJ 3oLjhx9+2OBH8ARvwfHDDz8z2BA8wZvBDz/88CN4grfgLggz+OGHH8ETvAXHDz9s8MOP4AneguOH nxnnxo/gCd6C44cffmbwI3iC9+bHDz/88CN4grfgZrDBDz/8CJ7gLbgLwoxz44cfwRO8BccPPzP4 4UfwBG/B8cMPP2zwI3iCt+D44YefGYIneII3gx9++OFH8ARvwV0QZvDDDz+CJ3gLjh9+2OCHH8ET vAXHDz8zzo0fwRO8BccPP/zM4EfwBO/Njx9++OFH8ARvwc1ggx9++BE8wVtwF4QZ58YPP4IneAuO H35m8MOP4AneguOHH35m8CN4grfg+OGHnxmCJ3iCN4MffvjhR/AEb8FdEGbwww8/gid4C44fftjg hx/BE7wFxw8/M86NH8ETvAXHDz/8zOBH8ATvzY8ffvjhR/AEb8HNYIMffvgRPMFbcBeEGefGDz+C J3gLjh9+ZvDDj+AJ3oLjhx9+ZvAjeIK34Pjhh58Zgid4gjeDH3744UfwBG/BXRBm8MMPP4IneAuO H37Y4IcfwRO8BccPPzPOjR/BPzyvXv0WXrz4cLDPn1+Hx4/ftWAOtapWoa63xcyU9nrxw8+Mc+M3 fCb+R8CiBC8iIiIELyIiQvAiIiJC8CIiIkLwIiIiQvAiIiJC8CIiIkLwIiIiBC8iIiIELyIiIgQv IiIiBC8iIiIELyIiQvAiIiJC8CIiIkLwIiIiQvAiIiJC8CIiIkLwIiIiBC8iIiIELyIiIgQvIiIi BC8iIiIELyIiQvAiIiJC8CIiIkLwIiIiQvAiIiJC8CIiIkLwIiIiBC8iIiIELyIiIgQvIiIiBC8i IiIELyIiQvAiIiJC8CIiIkLwIiIiQvAiIiIyLP8DsnE+bqK0xCMAAAAASUVORK5CYII= "
+     preserveAspectRatio="none"
+     height="368"
+     width="504" />
+  <flowRoot
+     transform="translate(0,22)"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     id="flowRoot3848"
+     xml:space="preserve"><flowRegion
+       id="flowRegion3850"><rect
+         y="99.796608"
+         x="-54.576271"
+         height="168.40678"
+         width="29.627119"
+         id="rect3852" /></flowRegion><flowPara
+       id="flowPara3854">Weihght</flowPara></flowRoot>  <flowRoot
+     transform="translate(0,22)"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     id="flowRoot3856"
+     xml:space="preserve"><flowRegion
+       id="flowRegion3858"><rect
+         y="132.54237"
+         x="-63.932205"
+         height="143.45763"
+         width="51.457626"
+         id="rect3860" /></flowRegion><flowPara
+       id="flowPara3862">Weight Frequency</flowPara></flowRoot>  <flowRoot
+     transform="translate(0,22)"
+     style="font-style:normal;font-weight:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     id="flowRoot3872"
+     xml:space="preserve"><flowRegion
+       style="font-size:18.66666603px"
+       id="flowRegion3874"><rect
+         style="font-size:18.66666603px"
+         y="102.91525"
+         x="-53.016949"
+         height="162.16949"
+         width="67.05085"
+         id="rect3876" /></flowRegion><flowPara
+       id="flowPara3878" /></flowRoot>  <flowRoot
+     transform="translate(0,22)"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     id="flowRoot3882"
+     xml:space="preserve"><flowRegion
+       id="flowRegion3884"><rect
+         y="98.237289"
+         x="-46.779659"
+         height="159.05084"
+         width="60.81356"
+         id="rect3886" /></flowRegion><flowPara
+       id="flowPara3888">Weight Frequ4enc</flowPara></flowRoot>  <flowRoot
+     transform="translate(0,22)"
+     style="font-style:normal;font-weight:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     id="flowRoot3890"
+     xml:space="preserve"><flowRegion
+       style="font-size:18.66666603px"
+       id="flowRegion3892"><rect
+         style="font-size:18.66666603px"
+         y="88.881355"
+         x="-45.220341"
+         height="204.27118"
+         width="51.457626"
+         id="rect3894" /></flowRegion><flowPara
+       id="flowPara3896" /></flowRoot>  <flowRoot
+     transform="translate(0,22)"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     id="flowRoot3898"
+     xml:space="preserve"><flowRegion
+       id="flowRegion3900"><rect
+         y="369.55933"
+         x="68.610168"
+         height="96.677963"
+         width="369.55933"
+         id="rect3902" /></flowRegion><flowPara
+       id="flowPara3904" /></flowRoot>  <flowRoot
+     transform="translate(0,22)"
+     style="font-style:normal;font-weight:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     id="flowRoot3922"
+     xml:space="preserve"><flowRegion
+       id="flowRegion3924"><rect
+         y="82.644066"
+         x="-60.81356"
+         height="145.01695"
+         width="63.932205"
+         id="rect3926" /></flowRegion><flowPara
+       id="flowPara3928">Weight Frequency</flowPara></flowRoot>  <text
+     id="text4635"
+     y="33.525425"
+     x="141.93221"
+     style="font-style:normal;font-weight:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       y="33.525425"
+       x="141.93221"
+       id="tspan4633">Distribution of Model Weights</tspan></text>
+  <text
+     id="text4639"
+     y="368.77966"
+     x="203.79662"
+     style="font-style:normal;font-weight:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       y="368.77966"
+       x="203.79662"
+       id="tspan4637">Weight Value</tspan></text>
+  <text
+     transform="rotate(-90)"
+     id="text4643"
+     y="30.183231"
+     x="-290.5278"
+     style="font-style:normal;font-weight:normal;font-size:18.66666603px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       y="30.183231"
+       x="-290.5278"
+       id="tspan4641">Weight Frequency</tspan></text>
 </svg>
